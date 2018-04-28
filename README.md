@@ -1,27 +1,8 @@
 # Calculadora
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Tres Astronautas S.A.S,  es un gran placer para mí presentarles el proyecto asignado como prueba de reclutamiento Web 3A;  el cual fue desarrollado comenzando por la parte estructural y logica del programa, donde se realizo la creación de componentes y una estructura que fuera la encargada de recibir y procesar los datos enviados de la vista al controlador. Ya con la estructura logica funcionando correctamente, se rocede a materializar el boceto propuesto para el proyecto haciendo uso de las estructuras y reglamentación de Angular.
+Finalizado el requerimiento de la calculadora, se procedio a la creación de la pantalla de bienvenida, en la que se logra crear una firma digital qué abstrae de manera simple, mi estilo como diseñador web, teniendo en cuenta cada uno de los objetivos requeridos, así como habilidades, competencias, innovación, creatividad y experiencia profesional. Ya con el producto finalizado y testeado. Se procede ser cargado en la plataforma Github.
+Los principales problemas encontrados durante el desarrollo fueron la ausencia de los iconos exactos a los del boceto y la implementación de la pagina de bienvenida, para lograr materializar mi carta de presentación. Pero estos fueron superados rápidamente gracias a los planes de contingencia y planeación estratégica, con el uso de el CDN de fontawesome, que permitió incluso mejorar los tiempos estimados de 3 a 2 días con resultados satisfactorios.
+Quiero finamente expresar mi interés de hacer parte de su equipo de trabajo comprometiéndome con actitud, energía, creatividad y pasión en cada uno de los proyectos que me sean asignados demostrando siempre excelentes resultados y estándares que su organización exige para posicionarse como la mejor en el mercado. 
+Quedo atento a sus comentarios 
+Cordialmente
+Ing. Duvan Gomez
