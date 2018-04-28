@@ -1,0 +1,53 @@
+<div class="contenedor">
+  <form>
+    <table>
+      <tr>
+        <td colspan="4" class="displa"><a href="#"><i class="fas fa-bars"></i></a><a href="#"><i class="fas fa-cog"></i></a></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <div class="caja">
+            <input type="text" id="capotexto" class="text sup" name="pantalla" value="{{dataService.displaysup}}"/>
+            <input type="text" id="capotexto" class="text med" name="pantalla" value="{{dataService.displaymed}}"/>
+            <input type="text" id="capotexto" class="text" name="pantalla" value="{{dataService.display}}"/>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><input class="col2 big" id="clear" type="button" value="CLEAR" (click)="dataService.limpiar(true) "></td>
+        <td><input class="col2" id="delete" type="button" value="DEL" (click)="press('d')"></td>
+        <td><input class="col2" id="unosobre" type="button" value="1/x" ></td>
+      </tr>
+      <tr>
+        <td><input class="col2" id="masomenos" type="button" value="&plusmn;" (click)="press('&plusmn;')"></td>
+        <td><input class="col2" id="raiz" type="button" value="&#8730;" (click)="press('&#8730;')"></td>
+        <td><input class="col2" id="porcentaje" type="button" value="%" (click)="press('%')"></td>
+        <td><input class="col2" id="division" type="button" value="/" (click)="press('/')" ></td>
+      </tr>
+      <tr>
+        <td><input class="col1" type="button" value="7" (click)="press('7')"></td>
+        <td><input class="col1" type="button" value="8" (click)="press('8')"></td>
+        <td><input class="col1" type="button" value="9" (click)="press('9')"></td>
+        <td><input class="col2" id="multiplicacion" type="button" value="*" (click)='press("*")'></td>
+      </tr>
+      <tr>
+        <td><input class="col1" type="button" value="4" (click)="press('4')"></td>
+        <td><input class="col1" type="button" value="5" (click)="press('5')"></td>
+        <td><input class="col1" type="button" value="6" (click)="press('6')"></td>
+        <td><input class="col2" type="button" value="-" (click)="press('-')"></td>
+      </tr>
+      <tr>
+        <td><input class="col1" type="button" value="1" (click)="press('1')"></td>
+        <td><input class="col1" type="button" value="2" (click)="press('2')"></td>
+        <td><input class="col1" type="button" value="3" (click)="press('3')"></td>
+        <td><input class="col2" type="button" value="+" (click)="press('+')"></td>
+      </tr>
+      <tr>
+          <td colspan="2"><input class="col1 big" type="button" value="0" (click)="press(0)"></td>
+          <td colspan="1"><input class="col1" type="button" value="." (click)="press('.')"></td>
+          <td colspan="1"><input class="col1 col4" type="button" value="=" (click)="igual()"></td>
+        </tr>
+    </table>
+  </form>
+</div>
+  

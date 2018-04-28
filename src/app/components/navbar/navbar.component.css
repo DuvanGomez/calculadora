@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+
+li{
+    display: inline-block;
+    margin: 10px 10px 0;
+}
+a {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    color: #8D8D8D;
+    text-decoration: none;
+}

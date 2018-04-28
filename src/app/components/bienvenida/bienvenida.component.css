@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    font-size: 3.5em;
+    color: #C63D00;
+}
+
+@media (min-width: 730px)
+{
+    h1
+    {     
+        font-size: 6em;
+    }
+}
